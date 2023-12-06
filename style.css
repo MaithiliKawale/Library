@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase{
+    background-image: url("./books.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 208vh;
+}
+
+/* Header design */
+
+.main{
+ background-color: rgba(87, 85, 85, 0.1); 
+ box-sizing: border-box;
+ box-shadow: 0 0 20px 0 lightgray; 
+ height: 60px;
+
+}
+
+.logo{
+    color: rgba(247, 223, 192, 0.7);
+    font-size: 30px;
+    float: left;
+    margin-left: 20px;
+}
+
+nav{
+    width: 90%;
+}
+
+nav ul{
+    float: right;
+    margin-top: 12px;
+
+}
+
+ul li{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+li a:hover{
+    color: rgba(247, 223, 192, 0.7);
+}
+
+/* navbar done */
+
+.content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    padding-inline: 5px;
+}
+
+.twoButtons{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button{
+    margin-inline: 30px;
+    text-decoration: none;
+    font-size:20px;
+    color: black;
+    padding: 5px 15px;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+
+
+.services{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: lightgray;
+
+}
+
+.grid-3{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.grid-3 > div{
+    text-align: center;
+    border-inline: 1px white solid;
+}
+
+.quote{
+    font-Size :35px;
+    padding-top: 15px;
+    text-align: center;
+    /* background:rgba(247, 223, 192, 0.7); */
+
+}
+
+.end{
+    margin: 0 200px ;
+    text-align: right ;
+    padding:2px;
+}
+
+.Subscription{
+    background: url("./sub.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+.sum{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoCards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    text-decoration: none;
+    background-color:rgb(31, 28, 28);
+    color: white;
+    box-sizing: border-box;
+    border: 2px rgb(39, 39, 39) solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 2px darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 250px;
+    min-width: 150px;
+    margin: 20px 80px 30px 80px;
+    padding: 50px 10px;
+    transition: all 250ms ease;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherPages{
+    background: url("./sub.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+}
+
+.center .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    width: 60%;
+    background-color: rgba(247, 223, 192, 0.7);
+    text-align: center;
+
+}
+
+.m-x1{
+    margin-inline: 5px;
+}
+
+.m-x2{
+    margin-inline: 10px;
+}
+
+.m-x3{
+    margin-inline: 15px;
+}
+
+.m-x5{
+    margin-inline: 30px;   
+}
+
+.m-y1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.m-y2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.m-y3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.m-yb{
+    margin-bottom: 30px;   
+
+}
+
+/* .m-x1{
+    padding-inline: 5px;
+}
+
+.p-x1{
+    padding-inline: 10px;
+}
+
+.p-x1{
+    padding-inline: 15px;
+} */
